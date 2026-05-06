@@ -1,19 +1,18 @@
-# Goal
+# Ziel
 Schreibe ein Buch über Mathematik als ultimatives Werkzeug für Softwarespezifikationen.
 
-# HOWTO
-- Use readthedocs.org to produce the documentation
-- Use reStructuredText to document everything not markdown
-- For every decision evaluate three options and archiv the discarded ones in a compressed way
-  in an appendix of the documentation.
+# ANLEITUNG
+- Verwenden Sie readthedocs.org, um die Dokumentation zu erstellen.
+- Verwenden Sie reStructuredText für alles, was nicht in Markdown verfasst ist.
+- Bewerten Sie für jede Entscheidung drei Optionen und archivieren Sie die verworfenen in komprimierter Form in einem Anhang der Dokumentation.
 
-# Testing Locally & with Github Action Workflow
-- Maintain a CI/CD pipeline that runs on every commit and every push.
-- Use `test/install.sh` to install testing-specific dependencies.
-- Verify the syntax and rendering on every task and ever steps.
-- Add caching to the Github action workflows to speed up builds.
+# Lokales Testen & mit Github Action Workflow
+- Behalten Sie eine CI/CD-Pipeline bei, die bei jedem Commit und jedem Push ausgeführt wird.
+- Verwenden Sie `test/install.sh`, um testspezifische Abhängigkeiten zu installieren.
+- Überprüfen Sie die Syntax und das Rendering bei jeder Aufgabe und jedem Schritt.
+- Fügen Sie Caching zu den Github-Action-Workflows hinzu, um Builds zu beschleunigen.
 
-# ROADMAP rules
-- Split big tasks into multiple and/or subtasks if not  modest, feasible and reasonable in one go.
-- Add an intermediate usecase, architecture or design tasks if direct implementation is risky.
-- Mark Tasks are  as completed with a timestamp and the corresponding issue id when closed.
+# ROADMAP-Regeln
+- Teilen Sie große Aufgaben in mehrere Teilaufgaben auf, wenn sie nicht in einem Durchgang bescheiden, machbar und angemessen sind.
+- Fügen Sie Zwischenaufgaben für Anwendungsfälle, Architektur oder Design hinzu, wenn eine direkte Implementierung riskant ist.
+- Markieren Sie Aufgaben als abgeschlossen mit einem Zeitstempel und der entsprechenden Issue-ID, wenn sie geschlossen werden.

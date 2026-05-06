@@ -5,6 +5,7 @@ Mathematik als ultimatives Werkzeug für Softwarespezifikationen
    :maxdepth: 2
    :caption: Inhalt:
 
+   notation
    kapitel1
    kapitel2
    kapitel3

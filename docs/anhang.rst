@@ -32,3 +32,26 @@ Für die Auswahl der im Buch behandelten Anwendungsfälle wurden die folgenden d
 1. **Mathematisch-konzeptionell**: Die Auswahl der Anwendungsfälle orientiert sich an den zu vermittelnden mathematischen Konzepten (z. B. Zustandsmaschinen für Verhaltensspezifikationen, Mengenlehre für Datenmodelle, Prädikatenlogik für Geschäftsregeln). Dies stellt sicher, dass die theoretischen Grundlagen direkt in praktischen, für das jeweilige Konzept typischen Szenarien angewendet werden. (**Ausgewählt**)
 2. **Domänen-basiert**: Die Auswahl erfolgt nach verschiedenen Anwendungsdomänen (z. B. Medizintechnik, Finanzwesen, Luft- und Raumfahrt). Dies würde die Vielseitigkeit der Methoden demonstrieren, könnte aber dazu führen, dass mathematische Konzepte redundant oder unvollständig behandelt werden, da sie sich an der Domäne und nicht an der Theorie orientieren. (**Verworfen**)
 3. **Komplexitäts-basiert**: Die Anwendungsfälle werden nach steigendem Schwierigkeitsgrad ausgewählt, beginnend bei trivialen Beispielen bis hin zu hochkomplexen Systemen. Dies könnte den Lernfortschritt unterstützen, erschwert aber die systematische Einführung spezifischer mathematischer Werkzeuge, da die Komplexität oft quer zu den konzeptionellen Grundlagen liegt. (**Verworfen**)
+
+Auswahl der Anwendungsfälle
+---------------------------
+
+Für die drei Kategorien von Anwendungsfällen wurden jeweils drei Optionen bewertet:
+
+**Kategorie 1: Zustandsbasierte Steuerung**
+
+1. **Ampelsystem**: Ein klassisches Beispiel für endliche Zustandsautomaten. Es ist leicht verständlich und ermöglicht die Demonstration von Zustandsübergängen, Zeitbedingungen und Sicherheitszusagen (z. B. "Nie beide Richtungen gleichzeitig grün"). (**Ausgewählt**)
+2. **Getränkeautomat**: Demonstriert ebenfalls Zustände, ist aber in der Modellierung der Interaktionen oft komplexer ohne zusätzlichen mathematischen Mehrwert für die Grundlagen gegenüber dem Ampelsystem. (**Verworfen**)
+3. **Mikrowelle**: Beinhaltet Sicherheitsaspekte und Zustände, ist jedoch in der alltäglichen Wahrnehmung der Zustandsübergänge weniger intuitiv als ein Ampelsystem. (**Verworfen**)
+
+**Kategorie 2: Relationales Datenmodell**
+
+1. **Bibliotheksverwaltung**: Bietet eine ideale Struktur zur Anwendung der Mengenlehre und Relationenalgebra. Die Konzepte von Primärschlüsseln, Fremdschlüsseln und Integritätsbedingungen lassen sich hervorragend mathematisch abbilden. (**Ausgewählt**)
+2. **Lagerverwaltung**: Ähnlich wie die Bibliotheksverwaltung, aber oft mit komplexeren numerischen Bestandsfortschreibungen verbunden, die vom Fokus auf relationale Strukturen ablenken könnten. (**Verworfen**)
+3. **Personalverwaltung**: Bietet relationale Strukturen, bringt aber oft datenschutzrechtliche Komplexitäten in der Diskussion mit sich, die für ein mathematisches Lehrbuch unnötig sind. (**Verworfen**)
+
+**Kategorie 3: Logikbasierte Geschäftsregeln**
+
+1. **Rabattsystem**: Ermöglicht die präzise Anwendung von Prädikatenlogik und Aussagenlogik zur Definition von Bedingungen (z. B. "Wenn Kunde = Premium UND Umsatz > 100, DANN Rabatt = 10%"). (**Ausgewählt**)
+2. **Kreditbewilligung**: Sehr gut für Logik geeignet, erfordert aber oft tiefes Domänenwissen über Finanzmathematik, was die mathematische Kernbotschaft überlagern könnte. (**Verworfen**)
+3. **Steuerberechnung**: Bietet hochkomplexe Regelsysteme, ist aber aufgrund der ständigen gesetzlichen Änderungen als statisches Buchbeispiel weniger geeignet. (**Verworfen**)

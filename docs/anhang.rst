@@ -23,3 +23,12 @@ Für die im Buch verwendete mathematische Notation wurden die folgenden drei Opt
 1. **Standard-Mathematik (ISO 80000-2)**: Verwendung der international standardisierten mathematischen Symbole und Schreibweisen. Dies bietet die höchste Universalität und Präzision, da sie unabhängig von spezifischen Spezifikationssprachen ist. (**Ausgewählt**)
 2. **Z-Notation**: Eine formale Spezifikationssprache basierend auf der Zermelo-Fraenkel-Mengenlehre. Sie ist sehr mächtig für Softwarespezifikationen, erfordert aber eine hohe Einarbeitungszeit für Leser, die nicht mit formalen Methoden vertraut sind. (**Verworfen**)
 3. **Programmiersprachen-ähnliche Notation**: Verwendung von Konstrukten, die modernen funktionalen Programmiersprachen ähneln (z.B. Haskell-ähnlich). Dies wäre für Softwareentwickler leichter zugänglich, könnte aber die mathematische Strenge und die universelle Anwendbarkeit einschränken. (**Verworfen**)
+
+Auswahlkriterien für Anwendungsfälle
+------------------------------------
+
+Für die Auswahl der im Buch behandelten Anwendungsfälle wurden die folgenden drei Optionen bewertet:
+
+1. **Mathematisch-konzeptionell**: Die Auswahl der Anwendungsfälle orientiert sich an den zu vermittelnden mathematischen Konzepten (z. B. Zustandsmaschinen für Verhaltensspezifikationen, Mengenlehre für Datenmodelle, Prädikatenlogik für Geschäftsregeln). Dies stellt sicher, dass die theoretischen Grundlagen direkt in praktischen, für das jeweilige Konzept typischen Szenarien angewendet werden. (**Ausgewählt**)
+2. **Domänen-basiert**: Die Auswahl erfolgt nach verschiedenen Anwendungsdomänen (z. B. Medizintechnik, Finanzwesen, Luft- und Raumfahrt). Dies würde die Vielseitigkeit der Methoden demonstrieren, könnte aber dazu führen, dass mathematische Konzepte redundant oder unvollständig behandelt werden, da sie sich an der Domäne und nicht an der Theorie orientieren. (**Verworfen**)
+3. **Komplexitäts-basiert**: Die Anwendungsfälle werden nach steigendem Schwierigkeitsgrad ausgewählt, beginnend bei trivialen Beispielen bis hin zu hochkomplexen Systemen. Dies könnte den Lernfortschritt unterstützen, erschwert aber die systematische Einführung spezifischer mathematischer Werkzeuge, da die Komplexität oft quer zu den konzeptionellen Grundlagen liegt. (**Verworfen**)

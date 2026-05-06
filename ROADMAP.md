@@ -16,15 +16,35 @@ Dieses Dokument beschreibt die geplanten Schritte zur Erstellung des Buches "Mat
 
 ## Phase 2: Architektur und Design
 - [x] Entscheidung über das Buchlayout und die Kapitelstruktur treffen (2026-05-06)
-- [ ] Mathematische Notation und Symbolik definieren
+- [x] Mathematische Notation und Symbolik definieren (2026-05-06)
+  - [x] Entscheidung über die Art der mathematischen Notation treffen (2026-05-06)
+  - [x] Referenzdokument für Symbole und Notationen erstellen (`docs/notation.rst`) (2026-05-06)
 - [ ] Anwendungsfälle für Softwarespezifikationen auswählen und entwerfen
+  - [ ] Auswahlkriterien für Anwendungsfälle festlegen
+  - [ ] Drei verschiedene Anwendungsfälle identifizieren und dokumentieren
+  - [ ] Mathematische Modellierung der Anwendungsfälle skizzieren
 
 ## Phase 3: Inhaltliche Erstellung
 - [ ] Kapitel 1: Einleitung – Mathematik als Fundament
+  - [ ] Gliederung erstellen
+  - [ ] Ersten Entwurf schreiben
+  - [ ] Review und Finalisierung
 - [ ] Kapitel 2: Logik und Mengenlehre in der Softwareentwicklung
+  - [ ] Gliederung erstellen
+  - [ ] Ersten Entwurf schreiben
+  - [ ] Review und Finalisierung
 - [ ] Kapitel 3: Formale Spezifikationstechniken
+  - [ ] Gliederung erstellen
+  - [ ] Ersten Entwurf schreiben
+  - [ ] Review und Finalisierung
 - [ ] Kapitel 4: Praktische Anwendungsbeispiele
+  - [ ] Gliederung erstellen
+  - [ ] Ersten Entwurf schreiben
+  - [ ] Review und Finalisierung
 - [ ] Kapitel 5: Fazit und Ausblick
+  - [ ] Gliederung erstellen
+  - [ ] Ersten Entwurf schreiben
+  - [ ] Review und Finalisierung
 
 ---
 

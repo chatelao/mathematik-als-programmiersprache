@@ -16,7 +16,10 @@ Dieses Dokument beschreibt die geplanten Schritte zur Erstellung des Buches "Mat
 
 ## Phase 2: Architektur und Design
 - [x] Entscheidung über das Buchlayout und die Kapitelstruktur treffen (2026-05-06)
-- [ ] Mathematische Notation und Symbolik definieren
+- [x] Mathematische Notation und Symbolik definieren (2025-05-15, Issue #2)
+  - [x] Standard für die mathematische Notation auswählen (2025-05-15)
+  - [x] Referenztabelle für mathematische Symbole erstellen (`docs/notation.rst`) (2025-05-15)
+  - [x] Notation in die Dokumentationsstruktur integrieren (2025-05-15)
 - [ ] Anwendungsfälle für Softwarespezifikationen auswählen und entwerfen
 
 ## Phase 3: Inhaltliche Erstellung

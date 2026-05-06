@@ -16,6 +16,29 @@ Betrachten Sie eine einfache Kreuzung zweier Straßen (A und B). Die Steuerung m
 - **Übergänge:** Beschreiben Sie die Regeln, nach denen von einem Zustand in den nächsten gewechselt wird, basierend auf Zeitgebern oder Sensordaten.
 - **Invarianten:** Stellen Sie sicher, dass niemals beide Straßen gleichzeitig "Grün" signalisiert bekommen.
 
+**Mathematische Skizze:**
+
+Ein Ampelsystem kann als endlicher Zustandsautomat :math:`A = (S, \delta, s_0)` modelliert werden:
+
+1. **Zustandsmenge** :math:`S`:
+   Die Menge der möglichen Signalkombinationen für eine Straße:
+   :math:`S_{Straße} = \{ \text{Rot}, \text{Rot-Gelb}, \text{Grün}, \text{Gelb} \}`
+
+   Der Gesamtzustand der Kreuzung ist ein Element des kartesischen Produkts:
+   :math:`S = S_A \times S_B`, wobei :math:`S_A = S_B = S_{Straße}`.
+
+2. **Startzustand** :math:`s_0`:
+   :math:`s_0 = (\text{Rot}, \text{Rot})` (Initialzustand zur Sicherheit).
+
+3. **Übergangsfunktion** :math:`\delta`:
+   Die Funktion :math:`\delta: S \times \text{Ereignis} \to S` definiert den nächsten Zustand.
+   Beispiel für einen Übergang:
+   :math:`\delta((\text{Rot}, \text{Rot}), \text{Anforderung}_A) = (\text{Rot-Gelb}, \text{Rot})`
+
+4. **Sicherheitsinvariante** :math:`I`:
+   Eine Bedingung, die in jedem erreichbaren Zustand :math:`s \in S` gelten muss:
+   :math:`I(s) \iff \neg (s_A = \text{Grün} \land s_B = \text{Grün})`
+
 Anwendungsfall 2: Relationales Datenmodell (Bibliotheksverwaltung)
 ------------------------------------------------------------------
 

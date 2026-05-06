@@ -26,6 +26,9 @@ Dieses Dokument beschreibt die geplanten Schritte zur Erstellung des Buches "Mat
     - [x] Use Case 2: Relationales Datenmodell (z. B. Bibliotheksverwaltung) (2026-05-06)
     - [x] Use Case 3: Logikbasierte Geschäftsregeln (z. B. Rabattsystem) (2026-05-06)
   - [ ] Mathematische Modellierung der Anwendungsfälle skizzieren
+    - [x] Skizze Use Case 1: Ampelsystem (Zustandsautomat) (2026-05-07)
+    - [ ] Skizze Use Case 2: Bibliotheksverwaltung (Relationen)
+    - [ ] Skizze Use Case 3: Rabattsystem (Prädikatenlogik)
 
 ## Phase 3: Inhaltliche Erstellung
 - [ ] Kapitel 1: Einleitung – Mathematik als Fundament

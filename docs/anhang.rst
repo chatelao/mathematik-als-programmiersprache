@@ -55,3 +55,12 @@ Für die drei Kategorien von Anwendungsfällen wurden jeweils drei Optionen bewe
 1. **Rabattsystem**: Ermöglicht die präzise Anwendung von Prädikatenlogik und Aussagenlogik zur Definition von Bedingungen (z. B. "Wenn Kunde = Premium UND Umsatz > 100, DANN Rabatt = 10%"). (**Ausgewählt**)
 2. **Kreditbewilligung**: Sehr gut für Logik geeignet, erfordert aber oft tiefes Domänenwissen über Finanzmathematik, was die mathematische Kernbotschaft überlagern könnte. (**Verworfen**)
 3. **Steuerberechnung**: Bietet hochkomplexe Regelsysteme, ist aber aufgrund der ständigen gesetzlichen Änderungen als statisches Buchbeispiel weniger geeignet. (**Verworfen**)
+
+Modellierungstiefe der mathematischen Skizzen
+---------------------------------------------
+
+Für die Darstellung der mathematischen Skizzen in Kapitel 4 wurden die folgenden drei Optionen bewertet:
+
+1. **Semi-formal mit Definitionen**: Diese Option bietet ein klares mathematisches Fundament, indem die beteiligten Mengen und Funktionen definiert werden, ohne eine vollständige formale Spezifikationssprache vorauszusetzen. Sie schafft ein Gleichgewicht zwischen Zugänglichkeit und Präzision, was ideal für einführende Skizzen ist. (**Ausgewählt**)
+2. **Rein deskriptiv**: Diese Option verwendet natürliche Sprache, um die mathematischen Konzepte zu beschreiben. Sie ist zwar sehr zugänglich, lässt aber die Präzision und Klarheit der mathematischen Notation vermissen, die ein Kernziel des Buches ist. (**Verworfen**)
+3. **Vollständig formal**: Diese Option verwendet eine strenge formale Spezifikationssprache oder axiomatische Definitionen für jedes Detail. Sie ist zwar hochpräzise, könnte den Leser jedoch in der frühen Phase der "Skizzierung" überfordern und vom konzeptionellen Verständnis ablenken. (**Verworfen**)

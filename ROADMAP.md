@@ -15,7 +15,7 @@ Dieses Dokument beschreibt die geplanten Schritte zur Erstellung des Buches "Mat
 - [x] Syntax- und Rendering-Prüfung bei jeder Aufgabe automatisieren (2026-05-06)
 
 ## Phase 2: Architektur und Design
-- [ ] Entscheidung über das Buchlayout und die Kapitelstruktur treffen (Bewerten Sie hierzu drei Optionen)
+- [x] Entscheidung über das Buchlayout und die Kapitelstruktur treffen (2026-05-06)
 - [ ] Mathematische Notation und Symbolik definieren
 - [ ] Anwendungsfälle für Softwarespezifikationen auswählen und entwerfen
 
@@ -50,5 +50,12 @@ Für die Automatisierung der Builds wurden die folgenden drei Optionen bewertet:
 1. **GitHub Actions**: Nahtlose Integration in GitHub, einfache Konfiguration über YAML-Dateien und hervorragende Unterstützung für Caching von Abhängigkeiten. (**Ausgewählt**)
 2. **GitLab CI/CD**: Bietet umfangreiche Funktionen, würde jedoch einen Wechsel der Hosting-Plattform oder eine komplexe Spiegelung erfordern. (**Verworfen**)
 3. **CircleCI**: Ein leistungsstarker externer Dienst, der jedoch eine zusätzliche Kontoverwaltung und Integration außerhalb des GitHub-Ökosystems erfordert. (**Verworfen**)
+
+### Entscheidung: Buchlayout und Kapitelstruktur
+Für das Layout und die Struktur des Buches wurden die folgenden drei Optionen bewertet:
+
+1. **Top-Down (Theorie vor Praxis)**: Ein systematischer Aufbau, der mit den mathematischen Grundlagen beginnt und diese schrittweise auf komplexe Softwarespezifikationen anwendet. Dies stellt sicher, dass alle Konzepte präzise eingeführt werden, bevor sie in der Praxis verwendet werden. (**Ausgewählt**)
+2. **Bottom-Up (Praxis vor Theorie)**: Ein problemgetriebener Ansatz, der mit realen Softwareproblemen beginnt und die notwendige Mathematik "just-in-time" einführt. Dies könnte motivierender sein, birgt aber das Risiko, dass die mathematische Strenge und die Tiefe der Fundamente zugunsten der schnellen Anwendbarkeit leiden. (**Verworfen**)
+3. **Modular (Themenspezifisch)**: Das Buch wird in unabhängige Module unterteilt (z.B. ein Modul für Logik, eines für Mengenlehre, eines für Zustandsmaschinen). Dies ermöglicht ein selektives Lesen, erschwert jedoch die Darstellung des "roten Fadens" und der tiefen Zusammenhänge zwischen den mathematischen Disziplinen. (**Verworfen**)
 
 *Die verworfenen Optionen werden hiermit in komprimierter Form für die Dokumentation archiviert.*

@@ -21,10 +21,10 @@ Dieses Dokument beschreibt die geplanten Schritte zur Erstellung des Buches "Mat
   - [x] Referenzdokument für Symbole und Notationen erstellen (`docs/notation.rst`) (2026-05-06)
 - [ ] Anwendungsfälle für Softwarespezifikationen auswählen und entwerfen
   - [x] Auswahlkriterien für Anwendungsfälle festlegen (2026-05-07)
-  - [ ] Drei verschiedene Anwendungsfälle identifizieren und dokumentieren
-    - [ ] Use Case 1: Zustandsbasierte Steuerung (z. B. Ampelsystem)
-    - [ ] Use Case 2: Relationales Datenmodell (z. B. Bibliotheksverwaltung)
-    - [ ] Use Case 3: Logikbasierte Geschäftsregeln (z. B. Rabattsystem)
+  - [x] Drei verschiedene Anwendungsfälle identifizieren und dokumentieren (2026-05-06, Issue #2)
+    - [x] Use Case 1: Zustandsbasierte Steuerung (z. B. Ampelsystem) (2026-05-06)
+    - [x] Use Case 2: Relationales Datenmodell (z. B. Bibliotheksverwaltung) (2026-05-06)
+    - [x] Use Case 3: Logikbasierte Geschäftsregeln (z. B. Rabattsystem) (2026-05-06)
   - [ ] Mathematische Modellierung der Anwendungsfälle skizzieren
 
 ## Phase 3: Inhaltliche Erstellung

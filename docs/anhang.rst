@@ -64,3 +64,12 @@ Für die Darstellung der mathematischen Skizzen in Kapitel 4 wurden die folgende
 1. **Semi-formal mit Definitionen**: Diese Option bietet ein klares mathematisches Fundament, indem die beteiligten Mengen und Funktionen definiert werden, ohne eine vollständige formale Spezifikationssprache vorauszusetzen. Sie schafft ein Gleichgewicht zwischen Zugänglichkeit und Präzision, was ideal für einführende Skizzen ist. (**Ausgewählt**)
 2. **Rein deskriptiv**: Diese Option verwendet natürliche Sprache, um die mathematischen Konzepte zu beschreiben. Sie ist zwar sehr zugänglich, lässt aber die Präzision und Klarheit der mathematischen Notation vermissen, die ein Kernziel des Buches ist. (**Verworfen**)
 3. **Vollständig formal**: Diese Option verwendet eine strenge formale Spezifikationssprache oder axiomatische Definitionen für jedes Detail. Sie ist zwar hochpräzise, könnte den Leser jedoch in der frühen Phase der "Skizzierung" überfordern und vom konzeptionellen Verständnis ablenken. (**Verworfen**)
+
+Modellierungsansatz für die Bibliotheksverwaltung
+-------------------------------------------------
+
+Für die mathematische Skizzierung der Bibliotheksverwaltung in Kapitel 4 wurden die folgenden drei Optionen bewertet:
+
+1. **Relationaler/Mengenbasierter Ansatz**: Dieser Ansatz verwendet Mengen für Entitäten und Relationen bzw. Funktionen für deren Beziehungen. Er ist ideal, um die statische Struktur und Integritätsbedingungen (wie "Ein Buch hat mindestens einen Autor") klar und präzise darzustellen. (**Ausgewählt**)
+2. **Zustandsbasierter Ansatz (Zustandsautomat)**: Hierbei würde das System als eine Folge von Zustandsübergängen modelliert (z. B. "Buch verfügbar" zu "Buch ausgeliehen"). Dies würde den Fokus jedoch zu stark auf die zeitliche Abfolge und weniger auf die strukturellen Abhängigkeiten und Relationen legen, die für dieses Beispiel zentral sind. (**Verworfen**)
+3. **Algebraischer Ansatz**: Die Modellierung erfolgt über die Definition von Operationen und deren Axiomen (z. B. :math:`rueckgabe(ausleihe(b, m)) = b`). Dies ist sehr abstrakt und mächtig, aber für eine erste Skizze der Datenstrukturen weniger anschaulich als der relationale Ansatz. (**Verworfen**)

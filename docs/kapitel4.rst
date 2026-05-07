@@ -52,6 +52,23 @@ Modellieren Sie ein System zur Verwaltung von Büchern, Autoren und Ausleihen du
 - **Relationen:** Bilden Sie die Beziehungen zwischen diesen Mengen ab (z. B. "Autor schreibt Buch", "Mitglied leiht Buch aus").
 - **Integrität:** Verwenden Sie mathematische Prädikate, um sicherzustellen, dass beispielsweise ein Buch nur von einem Mitglied gleichzeitig ausgeliehen werden kann.
 
+**Mathematische Skizze:**
+
+Die Bibliotheksverwaltung kann als System von Mengen und Relationen modelliert werden:
+
+1. **Grundmengen:**
+   - :math:`B`: Die Menge aller Bücher im Bestand.
+   - :math:`A`: Die Menge aller Autoren.
+   - :math:`M`: Die Menge aller registrierten Mitglieder.
+
+2. **Relationen und Funktionen:**
+   - :math:`schrieb \subseteq A \times B`: Eine Relation, die Autoren ihren Werken zuordnet.
+   - :math:`leihtAus: B \mapsto M`: Eine partielle Funktion, die ein Buch seinem aktuellen Entleiher zuordnet. Wenn ein Buch :math:`b \in B` nicht ausgeliehen ist, ist :math:`leihtAus(b)` nicht definiert (geschrieben als :math:`b \notin \text{dom}(leihtAus)`).
+
+3. **Integritätsbedingungen (Invarianten):**
+   - Jedes Buch im System muss mindestens einen Autor haben: :math:`\forall b \in B: \exists a \in A: (a, b) \in schrieb`
+   - Die Eindeutigkeit der Ausleihe wird durch die funktionale Natur von :math:`leihtAus` sichergestellt (ein Buch kann zu einem Zeitpunkt nur an maximal eine Person ausgeliehen sein).
+
 Anwendungsfall 3: Logikbasierte Geschäftsregeln (Rabattsystem)
 --------------------------------------------------------------
 
